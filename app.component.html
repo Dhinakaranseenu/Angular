@@ -1,0 +1,21 @@
+<!--<h1>Dhina</h1>
+<app-header></app-header>
+<button class="btn btn-success">click</button>
+<h4>name = {{name}}</h4>
+<h5>Age = {{Age}}</h5>
+
+<h6>City = {{city()}}</h6>
+<button class="btn btn-outline-primary"[disabled]="value">click</button><br><br>
+
+<button class="btn btn-warning"(click)="change()">Changing name</button>
+{{names}}
+
+<input type="text" (input)="change1()">
+<p>{{names1}}</p>-->
+
+<!--<input type="text"[(ngModel)]="name" name ="text">
+<p>{{name}}</p>-->
+
+<input type="text" [(ngModel)]="name" name="text">
+<button class="btn btn-success"[disabled]="name === '' "(click)="change()"> Click</button>
+<p>{{text}}</p>
